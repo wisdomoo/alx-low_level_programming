@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
  * print_alphabet - a function that prints the alphabet, in lowercase
  *
@@ -13,6 +12,4 @@ void print_alphabet(void)
 	    _putchar(lower);
     }
     _putchar('\n');
-
-   
 }
