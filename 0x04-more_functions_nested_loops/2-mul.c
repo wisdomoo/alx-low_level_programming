@@ -1,11 +1,9 @@
 #include "main.h"
 
 /**
- * mul - multiplies two numbers together
- * @c: The character to print
- *
- * Return: On success 1.
- * On error, -1 is returned, and errno is set appropriately.
+ * mul -  a function that multiplies two digits together
+ * @c: input
+ * Return: the result of the function
  */
 int mul(int a, int b)
 {
