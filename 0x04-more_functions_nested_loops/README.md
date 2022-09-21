@@ -1,29 +1,33 @@
-0x04. C - Pointers, arrays and strings
+0x03. C - More functions, more nested loops
 Description
 What you should learn from this project:
 
-What are pointers and how to use them
-What are arrays and how to use them
-What are the differences between pointers and arrays
-How to use strings and how to manipulate them
+What are nested loops and how to use them
+What is a function and how do you use functions
+What is the difference between a declaration and a definition of a function
+What is a prototype
 Scope of variables
-0. 98 Battery st.-
-Write a function that takes a pointer to an int as parameter and updates the value it points to to 98.
-1. Don't swap horses in crossing a stream-
-Write a function that swaps the values of two integers.
-2. This report, by its very length, defends itself against the risk of being read-
-Write a function that returns the length of a string.
-3. I do not fear computers. I fear the lack of them-
-Write a function that prints a string, followed by a new line, to stdout.
-4. I can only go one way. I've not got a reverse gear-
-Write a function that prints a string, in reverse, followed by a new line.
-5. A good engineer thinks in reverse and asks himself about the stylistic consequences of the components and systems he proposes-
-Write a function that reverses a string.
-6. Half the lies they tell about me aren't true-
-Write a function that prints one char out of 2 of a string, followed by a new line.
-7. Winning is only half of it. Having fun is the other half-
-Write a function that prints half of a string, followed by a new line.
-8. Arrays are not pointers-
-Write a function that prints n elements of an array of integers, followed by a new line.
-9. strcpy-
-Write a function that copies the string pointed to by src, including the terminating null byte (\0), to the buffer pointed to by dest.
+What are the gcc flags -Wall -Werror -pedantic -Wextra
+What are header files and how to to use them with #include
+0. isupper
+Write a function that checks for uppercase character.
+1. isdigit
+Write a function that checks for a digit (0 through 9).
+2. Collaboration is multiplication
+Write a function that multiplies two integers.
+3. The numbers speak for themselves
+Write a function that prints the numbers, from 0 to 9, followed by a new line.
+4. I believe in numbers and signs
+Write a function that prints the numbers, from 0 to 9, followed by a new line. Do not print 2 and 4.
+5. Numbers constitute the only universal language
+Write a function that prints 10 times the numbers, from 0 to 14, followed by a new line.
+6. The shortest distance between two points is a straight line
+Write a function that draws a straight line in the terminal.
+7. I feel like I am diagonally parked in a parallel universe
+Write a function that draws a diagonal line on the terminal.
+8. You are so much sunshine in every square inch
+Write a function that prints a square, followed by a new line.
+9. Fizz-Buzz
+Write a program that prints the numbers from 1 to 100, followed by a new line. But for multiples of three print Fizz instead of the number and for the multiples of five print Buzz. For numbers which are multiples of both three and five print FizzBuzz.
+10. Triangles
+Write a function that prints a triangle, followed by a new line.
