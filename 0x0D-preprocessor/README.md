@@ -35,7 +35,4 @@ What you should learn from this project:
 
 Author
 
-    Jhoan Stiven Zamora Caicedo - jzamora5
-
-Footer
-
+    okoroafor wisdom o - wisdomoo
