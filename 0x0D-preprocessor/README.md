@@ -35,4 +35,4 @@ What you should learn from this project:
 
 Author
 
-    okoroafor wisdom o - https://github.com/wisdomoo
+    okoroafor wisdom o - [link](https://github.com/wisdomoo)
