@@ -8,15 +8,13 @@
  *
  * Return: Number of elements in list
  */
-size_t print_list(const list_t *h)
+size_t print_list(const listint_t *h)
 {
-	list_t *ptr;
-	ptr = h;
 	int count = 0;	
-	while(ptr != NULL)
+	while(h != NULL)
 	{
 		count++;
-		ptr = ptr->next;
+		h = h->next;
 }
 	return count;
 }	
