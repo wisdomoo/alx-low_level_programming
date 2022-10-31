@@ -26,4 +26,4 @@ What you should learn from this project:
 ---
 
 ## Author
-* **Derrick Gee** - [kai-dg](https://github.com/kai-dg)
+* **Okoroafor wisdom.o** - [wisdomoo](https://github.com/wisdomoo)
