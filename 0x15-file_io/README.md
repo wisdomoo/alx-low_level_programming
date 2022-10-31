@@ -37,4 +37,4 @@ What you should learn from this project:
 ---
 
 ## Author
-* **Jhoan Stiven Zamora Caicedo** - [wisdomoo](https://github.com/wisdomoo)
+* **Okoroafor Wisdom. o** - [wisdomoo](https://github.com/wisdomoo)
