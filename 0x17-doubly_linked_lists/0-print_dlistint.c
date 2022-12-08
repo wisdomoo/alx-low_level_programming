@@ -1,34 +1,21 @@
-#include <stdlib.h>
-#include <string.h>
-#include <stdio.h>
 #include "lists.h"
+#include <stdio.h>
 
 /**
- * main - check the code for Holberton School students.
- *
- * Return: Always EXIT_SUCCESS.
+ * print_dlistint - A function that prints a doubly linked list
+ * @h: head of doubly linked list
+ * Return: number of nodes in list
  */
-int main(void)
+size_t print_dlistint(const dlistint_t *h)
 {
-	dlistint_t *head;
-	dlistint_t *new;
-	dlistint_t hello = {8, NULL, NULL};
-	size_t n;
+	size_t nodes = 0;
+	const dlistint_t *temp;
 
-	head = &hello;
-	new = malloc(sizeof(dlistint_t));
-	if (new == NULL)
+	temp = h;
+	while (temp)
 	{
-		dprintf(2, "Error: Can't malloc\n");
-		return (EXIT_FAILURE);
+		printf("%d\n", temp->n);
+		temp = temp->next;
+		nodes++;
 	}
-	new->n = 9;
-	head->prev = new;
-	new->next = head;
-	new->prev = NULL;
-	head = new;
-	n = print_dlistint(head);
-	printf("-> %lu elements\n", n);
-	free(new);
-	return (EXIT_SUCCESS);
-}
+	return (nodes);
